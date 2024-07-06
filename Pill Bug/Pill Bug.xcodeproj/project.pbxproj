@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		716D4E642C39984E0067CBFD /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D4E632C39984E0067CBFD /* NotificationsView.swift */; };
+		71870E462C2E6D6300D755FF /* Pill_BugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71870E452C2E6D6300D755FF /* Pill_BugApp.swift */; };
+		71870E4D2C2E6D6500D755FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71870E4C2C2E6D6500D755FF /* Preview Assets.xcassets */; };
+		71870E542C2E6D8000D755FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71870E532C2E6D8000D755FF /* ContentView.swift */; };
+		71870E5C2C2E6D9700D755FF /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71870E552C2E6D9600D755FF /* DayView.swift */; };
+		71870E5D2C2E6D9700D755FF /* DoseDotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71870E562C2E6D9600D755FF /* DoseDotsView.swift */; };
+		71870E5E2C2E6D9700D755FF /* AddPatientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71870E572C2E6D9700D755FF /* AddPatientView.swift */; };
+		71870E5F2C2E6D9700D755FF /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71870E582C2E6D9700D755FF /* LogoView.swift */; };
+		71870E602C2E6D9700D755FF /* PatientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71870E592C2E6D9700D755FF /* PatientView.swift */; };
+		71870E612C2E6D9700D755FF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71870E5A2C2E6D9700D755FF /* SettingsView.swift */; };
+		71870E622C2E6D9700D755FF /* EditMedicineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71870E5B2C2E6D9700D755FF /* EditMedicineView.swift */; };
+		71870E672C2E6DCE00D755FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71870E662C2E6DCE00D755FF /* Assets.xcassets */; };
+		71870E712C2E6DE200D755FF /* ConcertOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71870E682C2E6DE200D755FF /* ConcertOne-Regular.ttf */; };
+		71870E722C2E6DE200D755FF /* image (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 71870E692C2E6DE200D755FF /* image (1).png */; };
+		71870E732C2E6DE200D755FF /* file (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 71870E6A2C2E6DE200D755FF /* file (2).png */; };
+		71870E742C2E6DE200D755FF /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71870E6B2C2E6DE200D755FF /* Pacifico-Regular.ttf */; };
+		71870E752C2E6DE200D755FF /* LilitaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71870E6C2C2E6DE200D755FF /* LilitaOne-Regular.ttf */; };
+		71870E762C2E6DE200D755FF /* Screenshot 2024-06-26 at 10.01.50 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 71870E6D2C2E6DE200D755FF /* Screenshot 2024-06-26 at 10.01.50 AM.png */; };
+		71870E772C2E6DE200D755FF /* Screenshot 2024-06-26 at 10.11.23 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 71870E6E2C2E6DE200D755FF /* Screenshot 2024-06-26 at 10.11.23 AM.png */; };
+		71870E782C2E6DE200D755FF /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 71870E6F2C2E6DE200D755FF /* image.png */; };
+		71870E792C2E6DE200D755FF /* Agbalumo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71870E702C2E6DE200D755FF /* Agbalumo-Regular.ttf */; };
+		71870E7E2C2E706900D755FF /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71870E7D2C2E706900D755FF /* Models.swift */; };
+		71870E802C2E707000D755FF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71870E7F2C2E707000D755FF /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		716D4E632C39984E0067CBFD /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		71870E422C2E6D6300D755FF /* Pill Bug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pill Bug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71870E452C2E6D6300D755FF /* Pill_BugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pill_BugApp.swift; sourceTree = "<group>"; };
+		71870E4C2C2E6D6500D755FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71870E532C2E6D8000D755FF /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71870E552C2E6D9600D755FF /* DayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		71870E562C2E6D9600D755FF /* DoseDotsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoseDotsView.swift; sourceTree = "<group>"; };
+		71870E572C2E6D9700D755FF /* AddPatientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPatientView.swift; sourceTree = "<group>"; };
+		71870E582C2E6D9700D755FF /* LogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		71870E592C2E6D9700D755FF /* PatientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientView.swift; sourceTree = "<group>"; };
+		71870E5A2C2E6D9700D755FF /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		71870E5B2C2E6D9700D755FF /* EditMedicineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMedicineView.swift; sourceTree = "<group>"; };
+		71870E662C2E6DCE00D755FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Project 17/Project 17/Assets.xcassets"; sourceTree = "<group>"; };
+		71870E682C2E6DE200D755FF /* ConcertOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ConcertOne-Regular.ttf"; sourceTree = "<group>"; };
+		71870E692C2E6DE200D755FF /* image (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image (1).png"; sourceTree = "<group>"; };
+		71870E6A2C2E6DE200D755FF /* file (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file (2).png"; sourceTree = "<group>"; };
+		71870E6B2C2E6DE200D755FF /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		71870E6C2C2E6DE200D755FF /* LilitaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LilitaOne-Regular.ttf"; sourceTree = "<group>"; };
+		71870E6D2C2E6DE200D755FF /* Screenshot 2024-06-26 at 10.01.50 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-06-26 at 10.01.50 AM.png"; sourceTree = "<group>"; };
+		71870E6E2C2E6DE200D755FF /* Screenshot 2024-06-26 at 10.11.23 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-06-26 at 10.11.23 AM.png"; sourceTree = "<group>"; };
+		71870E6F2C2E6DE200D755FF /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		71870E702C2E6DE200D755FF /* Agbalumo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Agbalumo-Regular.ttf"; sourceTree = "<group>"; };
+		71870E7A2C2E6F9100D755FF /* Pill-Bug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pill-Bug-Info.plist"; sourceTree = SOURCE_ROOT; };
+		71870E7D2C2E706900D755FF /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		71870E7F2C2E707000D755FF /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71870E3F2C2E6D6300D755FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71870E392C2E6D6300D755FF = {
+			isa = PBXGroup;
+			children = (
+				71870E442C2E6D6300D755FF /* Pill Bug */,
+				71870E432C2E6D6300D755FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71870E432C2E6D6300D755FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71870E422C2E6D6300D755FF /* Pill Bug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71870E442C2E6D6300D755FF /* Pill Bug */ = {
+			isa = PBXGroup;
+			children = (
+				71870E7A2C2E6F9100D755FF /* Pill-Bug-Info.plist */,
+				71870E452C2E6D6300D755FF /* Pill_BugApp.swift */,
+				71870E632C2E6DA900D755FF /* Views */,
+				71870E812C2E707600D755FF /* ModelData */,
+				71870E662C2E6DCE00D755FF /* Assets.xcassets */,
+				71870E702C2E6DE200D755FF /* Agbalumo-Regular.ttf */,
+				71870E682C2E6DE200D755FF /* ConcertOne-Regular.ttf */,
+				71870E6A2C2E6DE200D755FF /* file (2).png */,
+				71870E692C2E6DE200D755FF /* image (1).png */,
+				71870E6F2C2E6DE200D755FF /* image.png */,
+				71870E6C2C2E6DE200D755FF /* LilitaOne-Regular.ttf */,
+				71870E6B2C2E6DE200D755FF /* Pacifico-Regular.ttf */,
+				71870E6D2C2E6DE200D755FF /* Screenshot 2024-06-26 at 10.01.50 AM.png */,
+				71870E6E2C2E6DE200D755FF /* Screenshot 2024-06-26 at 10.11.23 AM.png */,
+				71870E4B2C2E6D6500D755FF /* Preview Content */,
+			);
+			path = "Pill Bug";
+			sourceTree = "<group>";
+		};
+		71870E4B2C2E6D6500D755FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71870E4C2C2E6D6500D755FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71870E632C2E6DA900D755FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71870E532C2E6D8000D755FF /* ContentView.swift */,
+				71870E572C2E6D9700D755FF /* AddPatientView.swift */,
+				71870E552C2E6D9600D755FF /* DayView.swift */,
+				71870E562C2E6D9600D755FF /* DoseDotsView.swift */,
+				71870E5B2C2E6D9700D755FF /* EditMedicineView.swift */,
+				71870E582C2E6D9700D755FF /* LogoView.swift */,
+				71870E592C2E6D9700D755FF /* PatientView.swift */,
+				71870E5A2C2E6D9700D755FF /* SettingsView.swift */,
+				716D4E632C39984E0067CBFD /* NotificationsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		71870E812C2E707600D755FF /* ModelData */ = {
+			isa = PBXGroup;
+			children = (
+				71870E7D2C2E706900D755FF /* Models.swift */,
+				71870E7F2C2E707000D755FF /* Extensions.swift */,
+			);
+			path = ModelData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71870E412C2E6D6300D755FF /* Pill Bug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71870E502C2E6D6500D755FF /* Build configuration list for PBXNativeTarget "Pill Bug" */;
+			buildPhases = (
+				71870E3E2C2E6D6300D755FF /* Sources */,
+				71870E3F2C2E6D6300D755FF /* Frameworks */,
+				71870E402C2E6D6300D755FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pill Bug";
+			productName = "Pill Bug";
+			productReference = 71870E422C2E6D6300D755FF /* Pill Bug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71870E3A2C2E6D6300D755FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					71870E412C2E6D6300D755FF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 71870E3D2C2E6D6300D755FF /* Build configuration list for PBXProject "Pill Bug" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71870E392C2E6D6300D755FF;
+			productRefGroup = 71870E432C2E6D6300D755FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71870E412C2E6D6300D755FF /* Pill Bug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71870E402C2E6D6300D755FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71870E762C2E6DE200D755FF /* Screenshot 2024-06-26 at 10.01.50 AM.png in Resources */,
+				71870E782C2E6DE200D755FF /* image.png in Resources */,
+				71870E732C2E6DE200D755FF /* file (2).png in Resources */,
+				71870E772C2E6DE200D755FF /* Screenshot 2024-06-26 at 10.11.23 AM.png in Resources */,
+				71870E752C2E6DE200D755FF /* LilitaOne-Regular.ttf in Resources */,
+				71870E722C2E6DE200D755FF /* image (1).png in Resources */,
+				71870E4D2C2E6D6500D755FF /* Preview Assets.xcassets in Resources */,
+				71870E742C2E6DE200D755FF /* Pacifico-Regular.ttf in Resources */,
+				71870E712C2E6DE200D755FF /* ConcertOne-Regular.ttf in Resources */,
+				71870E672C2E6DCE00D755FF /* Assets.xcassets in Resources */,
+				71870E792C2E6DE200D755FF /* Agbalumo-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71870E3E2C2E6D6300D755FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71870E462C2E6D6300D755FF /* Pill_BugApp.swift in Sources */,
+				71870E612C2E6D9700D755FF /* SettingsView.swift in Sources */,
+				71870E622C2E6D9700D755FF /* EditMedicineView.swift in Sources */,
+				71870E5F2C2E6D9700D755FF /* LogoView.swift in Sources */,
+				71870E5E2C2E6D9700D755FF /* AddPatientView.swift in Sources */,
+				71870E5D2C2E6D9700D755FF /* DoseDotsView.swift in Sources */,
+				71870E5C2C2E6D9700D755FF /* DayView.swift in Sources */,
+				71870E542C2E6D8000D755FF /* ContentView.swift in Sources */,
+				71870E602C2E6D9700D755FF /* PatientView.swift in Sources */,
+				71870E802C2E707000D755FF /* Extensions.swift in Sources */,
+				71870E7E2C2E706900D755FF /* Models.swift in Sources */,
+				716D4E642C39984E0067CBFD /* NotificationsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71870E4E2C2E6D6500D755FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71870E4F2C2E6D6500D755FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71870E512C2E6D6500D755FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pill Bug/Preview Content\"";
+				DEVELOPMENT_TEAM = XUL9HN8N6L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pill-Bug-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pill Bug";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TravisRatliff.Pill-Bug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71870E522C2E6D6500D755FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pill Bug/Preview Content\"";
+				DEVELOPMENT_TEAM = XUL9HN8N6L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pill-Bug-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pill Bug";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TravisRatliff.Pill-Bug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71870E3D2C2E6D6300D755FF /* Build configuration list for PBXProject "Pill Bug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71870E4E2C2E6D6500D755FF /* Debug */,
+				71870E4F2C2E6D6500D755FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71870E502C2E6D6500D755FF /* Build configuration list for PBXNativeTarget "Pill Bug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71870E512C2E6D6500D755FF /* Debug */,
+				71870E522C2E6D6500D755FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71870E3A2C2E6D6300D755FF /* Project object */;
+}
